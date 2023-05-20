@@ -87,6 +87,83 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* GENERAL STYLES */    
+
+html {
+  font-size: 16px;
+}
+ 
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+ 
+ul {
+  list-style-type: none; 
+}
+ 
+a {
+    color: #e2e3ed;
+    text-decoration: none;
+}
+
+h1 {
+  font-family: 'Poppins', Helvetica, Arial, sans-serif; 
+  font-size: 3rem;
+  line-height: 43px; 
+  font-weight: 500; 
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875rem;
+  font-weight: 500; 
+}
+ 
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500; 
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 500; 
+}
+ 
+p {
+  font-size: 0.875rem; 
+  line-height: 18px; 
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+  font-style: normal; 
+}
+ 
+.content-wrapper {
+ 
+}
+
+/* BASE HEADER AND FOOTER */
+
+/* HOMEPAGE */
+
+/* ABOUT */
+
+/* FAQ */
+
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -180,9 +257,9 @@ textarea {
 }
 
 @media print,
-  (-webkit-min-device-pixel-ratio: 1.25),
-  (min-resolution: 1.25dppx),
-  (min-resolution: 120dpi) {
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 1.25dppx),
+(min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
 }
 
@@ -193,6 +270,7 @@ textarea {
    ========================================================================== */
 
 @media print {
+
   *,
   *::before,
   *::after {
@@ -260,4 +338,3 @@ textarea {
     page-break-after: avoid;
   }
 }
-
